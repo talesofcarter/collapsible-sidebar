@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Collapsible Sidebar</title>
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="top">
+        <div class="header">
+          <h1>Sidebar</h1>
+          <hr />
+        </div>
+        <div class="sidebar-links">
+          <div class="item sidebar-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-layout-grid-icon lucide-layout-grid"
+            >
+              <rect width="7" height="7" x="3" y="3" rx="1" />
+              <rect width="7" height="7" x="14" y="3" rx="1" />
+              <rect width="7" height="7" x="14" y="14" rx="1" />
+              <rect width="7" height="7" x="3" y="14" rx="1" />
+            </svg>
+            <span>Dashboard</span>
+          </div>
+          <div class="item sidebar-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-search-icon lucide-search"
+            >
+              <path d="m21 21-4.34-4.34" />
+              <circle cx="11" cy="11" r="8" />
+            </svg>
+            <span>Search</span>
+          </div>
+          <div class="item sidebar-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-shopping-cart-icon lucide-shopping-cart"
+            >
+              <circle cx="8" cy="21" r="1" />
+              <circle cx="19" cy="21" r="1" />
+              <path
+                d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"
+              />
+            </svg>
+            <span>Cart</span>
+            <span class="badge">2</span>
+          </div>
+          <div class="item sidebar-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-package2-icon lucide-package-2"
+            >
+              <path d="M12 3v6" />
+              <path
+                d="M16.76 3a2 2 0 0 1 1.8 1.1l2.23 4.479a2 2 0 0 1 .21.891V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9.472a2 2 0 0 1 .211-.894L5.45 4.1A2 2 0 0 1 7.24 3z"
+              />
+              <path d="M3.054 9.013h17.893" />
+            </svg>
+            <span>Orders</span>
+          </div>
+          <div class="item sidebar-item">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-user-icon lucide-user"
+            >
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
+            <span>Profile</span>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="user-profile">
+          <div class="user-avatar">JD</div>
+          <div class="user-info">
+            <div class="user-name">John Doe</div>
+            <div class="user-role">Administrator</div>
+          </div>
+        </div>
+        <div class="item sidebar-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-headset-icon lucide-headset"
+          >
+            <path
+              d="M3 11h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-5Zm0 0a9 9 0 1 1 18 0m0 0v5a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3Z"
+            />
+            <path d="M21 16v2a4 4 0 0 1-4 4h-5" />
+          </svg>
+          <span>Help & Support</span>
+        </div>
+        <div class="item sidebar-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-bell-icon lucide-bell"
+          >
+            <path d="M10.268 21a2 2 0 0 0 3.464 0" />
+            <path
+              d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"
+            />
+          </svg>
+          <span>Notifications</span>
+          <span class="badge">5</span>
+        </div>
+        <div class="item sidebar-item">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-log-out-icon lucide-log-out"
+          >
+            <path d="m16 17 5-5-5-5" />
+            <path d="M21 12H9" />
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4" />
+          </svg>
+          <span>Logout</span>
+        </div>
+      </div>
+    </aside>
+    <header class="header">
+      <label class="hamburger" aria-label="Toggle menu">
+        <input id="toggle-menu" class="hamburger-checkbox" type="checkbox" />
+        <span class="first-line"></span>
+        <span class="middle-line"></span>
+        <span class="bottom-line"></span>
+      </label>
+
+      <h1>Dashboard</h1>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
